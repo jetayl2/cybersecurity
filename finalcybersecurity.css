@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: 'Arvo', serif;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Header */
+
+#header {
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+    text-transform: uppercase;
+}
+
+.current_page_item {
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 288px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+#logo h1 {
+	padding: 30px 0px 0px 0px;
+	letter-spacing: -3px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 38px;
+}
+
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 3px 5px;
+	background: white;
+	text-transform: lowercase;
+	font: normal 10px Arial, Helvetica, sans-serif;
+}
+
+#search-submit {
+	width: 45px;
+	height: 22px;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	width: 652px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 50px 20px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0px 15px 0px 15px;
+}
+
+#menu a {
+	display: block;
+	height: 20px;
+	margin-right: 1px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: black;
+	border: none;
+}
+
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 592px;
+	padding: 0px 30px;
+}
+
+.post {
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.post .title a {
+	border: none;
+	letter-spacing: 1px;
+	letter-spacing: -1px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: normal;
+	color: Black;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 0px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 288px;
+	margin: 0px;
+	color: black;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* Footer */
+
+#footer {
+	width: 940px;
+	margin: 0px auto;
+	padding: 20px 0px;
+	background: grey;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-weight: normal;
+	font-size: 10px;
+    color: white
+}
+
+#footer a {
+	color: grey;
+}
+
+#banner {
+	width: 940px;
+	margin: 0px auto;
+	height: 150px;
+}
